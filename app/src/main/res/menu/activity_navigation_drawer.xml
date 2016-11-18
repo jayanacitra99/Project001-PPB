@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/resume"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_jenis"
+            android:icon="@drawable/users"
+            android:title="Jenis Wayang" />
+        <item
+            android:id="@+id/nav_story"
+            android:icon="@drawable/script"
+            android:title="Cerita Wayang" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/about"
+            android:title="About Us" />
+    </group>
+</menu>
